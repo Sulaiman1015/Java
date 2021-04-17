@@ -1,0 +1,37 @@
+package Day30_wrapperClass;
+
+public class wrapperClass {
+
+	public static void main(String[] args) {
+		int n1=10;
+		Integer n2=new Integer(10);
+		Integer n3=10;
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(n3);
+		
+		double d1=44.5;
+		Double d2=new Double(44.5);
+		Double d3=new Double("44.5");
+		System.out.println(d1);
+		System.out.println(d2);
+		System.out.println(d3);
+		System.out.println(d1+d2+d3);
+		
+		char ch1='a';
+		Character ch2=new Character('a');
+		System.out.println(ch1);
+		System.out.println(ch2);
+		
+		byte b1=100;
+		Byte b2=Byte.valueOf((byte) 100); //new Byte((byte)100);
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		
+		Integer num1=Integer.valueOf(123);
+		System.out.println(num1);
+
+	}
+
+}
